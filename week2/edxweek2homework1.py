@@ -131,3 +131,5 @@ print(test_error_rates)
 print(test_error_rates_idx)
 print(str(k)+" smallest indexes for test set errors rates: "+str(test_error_rates_idx[:k]))
 #END SOLUTION
+
+#stupid commit
