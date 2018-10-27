@@ -124,7 +124,8 @@ k = 3
 #collect the smallest indexes
 train_error_rates_idx = np.argpartition(train_error_rates, (1,k))
 test_error_rates_idx = np.argpartition(test_error_rates, (1,k))
-#print the first k smallest indexes
+
+#print the first K smallest indexes
 print(str(k)+" smallest indexes for train set error rates: "+str(train_error_rates_idx[:k]))
 print(test_error_rates)
 print(test_error_rates_idx)
